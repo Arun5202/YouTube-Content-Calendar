@@ -45,7 +45,7 @@ st.write("""
 Welcome!  
 This app helps plan my **YouTube uploads** .
 
-👉 [**Check my portfolio here**](https://arun2425.netlify.app/)
+👉 [**Check my portfolio here**](https://arun24.netlify.app/)
 """)
 
 # Content Calendar

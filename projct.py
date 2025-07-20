@@ -40,20 +40,6 @@ def load_lottie(url):
         return res.json()
     return None
 
-# Load animation
-animation_url = "https://assets3.lottiefiles.com/packages/lf20_jcikwtux.json"
-animation = load_lottie(animation_url)
-
-# Header
-st.title("🚀 Arun's Project")
-st.subheader("Plans for my channel")
-
-# Show animation
-if animation:
-    st_lottie(animation, speed=1, width=500, height=400)
-else:
-    st.warning("Animation couldn't load. Try a different URL.")
-
 # Portfolio link
 st.write("""
 Welcome!  
